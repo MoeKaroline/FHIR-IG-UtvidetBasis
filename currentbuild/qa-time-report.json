@@ -1,0 +1,256 @@
+{
+  "date" : "Mon, 09 Nov, 2026 13:52:52 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-lab-ig.json",
+    "size" : 2258,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 11
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 50,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 50,
+      "length" : 49
+    },
+    {
+      "activity" : "validate",
+      "start" : 52,
+      "length" : 6451
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 88
+    },
+    {
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 43
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 70,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-Pasient-1.json",
+    "size" : 1162,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 9
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 14
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 66,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-lab-observation-blodprove.json",
+    "size" : 2270,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 8
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 68
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 50,
+      "length" : 86
+    },
+    {
+      "activity" : "validate",
+      "start" : 50,
+      "length" : 1377
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 58,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 58,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 89
+    },
+    {
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 930
+    },
+    {
+      "activity" : "generate2",
+      "start" : 61,
+      "length" : 885
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 10
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 70,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-lab-patient.json",
+    "size" : 816,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 38
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 50,
+      "length" : 28
+    },
+    {
+      "activity" : "validate",
+      "start" : 52,
+      "length" : 280
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 58,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 59,
+      "length" : 42
+    },
+    {
+      "activity" : "generate2",
+      "start" : 61,
+      "length" : 293
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 416
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 67,
+      "length" : 7
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 70,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 160
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 1089
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 1138,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 61,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0
+  },
+  {
+    "name" : "/input/images/test.svg",
+    "size" : 8294
+  },
+  {
+    "name" : "/input/images/test.puml",
+    "size" : 389
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 2505,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 61,
+      "length" : 1
+    }]
+  }]
+}

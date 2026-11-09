@@ -1,0 +1,21 @@
+# lab-ig#0.1.0: Lab Implementation Guide
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### Resource Profiles
+
+* [Blodprøve](StructureDefinition-lab-observation-blodprove.md)
+* [Pasient](StructureDefinition-lab-patient.md)
+
+### ImplementationGuides
+
+* [Lab Implementation Guide](index.md)
+
+### Examples
+
+* [Pasient-1 (Patient)](Patient-Pasient-1.md)

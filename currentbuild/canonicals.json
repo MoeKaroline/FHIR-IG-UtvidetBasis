@@ -1,0 +1,21 @@
+[{
+  "id" : "lab-ig",
+  "type" : "ImplementationGuide",
+  "url" : "https://moekaroline.github.io/FHIR-IG/ImplementationGuide/lab-ig",
+  "version" : "0.1.0",
+  "name" : "LabIG"
+},
+{
+  "id" : "lab-observation-blodprove",
+  "type" : "StructureDefinition",
+  "url" : "https://moekaroline.github.io/FHIR-IG/StructureDefinition/lab-observation-blodprove",
+  "version" : "0.1.0",
+  "name" : "LabObservationBlood"
+},
+{
+  "id" : "lab-patient",
+  "type" : "StructureDefinition",
+  "url" : "https://moekaroline.github.io/FHIR-IG/StructureDefinition/lab-patient",
+  "version" : "0.1.0",
+  "name" : "LabPatient"
+}]

@@ -1,0 +1,50 @@
+LabIG : Validation Results
+=========================================
+
+err = 0, warn = 15, info = 7, broken links = 0
+$--
+Generated $--. FHIR version $-- for lab-ig#$-- (canonical = https://moekaroline.github.io/FHIR-IG)
+ Build Errors : 0 / 12 / 0
+ /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/fsh-generated/resources/ImplementationGuide-lab-ig : 0 / 2 / 3
+ /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/fsh-generated/resources/Patient-Pasient-1 : 0 / 0 / 1
+ /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/fsh-generated/resources/StructureDefinition-lab-observation-blodprove : 0 / 1 / 4
+ /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/fsh-generated/resources/StructureDefinition-lab-patient : 0 / 0 / 3
+</table>
+
+== n/a ==
+WARNING: /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/output/searchform.html: The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+WARNING: /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+WARNING: /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+WARNING: /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+WARNING: /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+WARNING: /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+WARNING: /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+WARNING: /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+
+== fsh-generated/resources/ImplementationGuide-lab-ig.json ==
+INFORMATION: ImplementationGuide/lab-ig: ImplementationGuide.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: ImplementationGuide/lab-ig: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
+WARNING: ImplementationGuide/lab-ig: ImplementationGuide.dependsOn[2]: The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource
+INFORMATION: Resource: The resource ImplementationGuide/lab-ig could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/Patient-Pasient-1.json ==
+
+
+== fsh-generated/resources/StructureDefinition-lab-observation-blodprove.json ==
+INFORMATION: StructureDefinition/lab-observation-blodprove: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/lab-observation-blodprove: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: Resource: The resource StructureDefinition/lab-observation-blodprove could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'https://moekaroline.github.io/FHIR-IG/StructureDefinition/lab-observation-blodprove'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-lab-patient.json ==
+INFORMATION: StructureDefinition/lab-patient: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: Resource: The resource StructureDefinition/lab-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+

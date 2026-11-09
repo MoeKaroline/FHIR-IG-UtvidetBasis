@@ -1,0 +1,27 @@
+
+Profile: LabCondition
+
+Parent: Condition
+Title: "Tilstand"
+Description: "Diagnose registrert i forbindelse med kontakten"
+* ^status = #draft
+* ^date = "2026-11-09"
+* ^publisher = "Karoline Moe"
+ 
+* identifier 1..1 MS // ID for den enkelte diagnoseregistreringen
+* code 1..1 MS // diagnosekode
+* code from Diagnosekoder (required) 
+* code.coding 1..1 MS // Én diagnoseoppføring = én diagnosekode fra ett kodeverk
+* code.coding.system 1..1 MS //kodeverk, ICD eller ICPC
+* code.coding.code 1..1 MS //diagnosekode
+* code.coding.display 0..1 MS //kodetekst dersom tilgjengelig 
+
+
+ValueSet: Diagnosekoder
+Id: diagnosekoder
+Title: "Diagnosekoder"
+Description: "Diagnosekoder fra ICPC eller ICD"
+
+* include codes from system http://hl7.org/fhir/sid/icpc-2 
+
+* include codes from system http://hl7.org/fhir/sid/icd-10

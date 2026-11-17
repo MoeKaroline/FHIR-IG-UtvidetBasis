@@ -66,7 +66,7 @@ Eksempel på en figur laget med PlantUML.
   "name" : "LabIG",
   "title" : "Lab Implementation Guide",
   "status" : "draft",
-  "date" : "2026-11-17T12:31:25+00:00",
+  "date" : "2026-11-17T12:34:30+00:00",
   "publisher" : "Karoline Moe",
   "contact" : [{
     "name" : "Karoline Moe",

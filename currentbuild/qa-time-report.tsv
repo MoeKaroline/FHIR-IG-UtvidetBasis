@@ -1,14 +1,14 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-lab-ig.json	2258	-	0	0	0	0	0	0	7	49	0	0	0	0	0	0	0	0	0	0	26	32	0	0	0	3	0	2
-fsh-generated/resources/Patient-Pasient-1.json	1162	3	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	3	12	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-lab-observation-blodprove.json	2270	2	0	41	0	0	1	0	0	80	0	0	1	0	0	0	0	1	0	0	54	850	0	1	0	9	0	4
-fsh-generated/resources/StructureDefinition-lab-patient.json	816	1	0	29	0	0	0	0	0	26	0	0	0	0	0	0	0	1	0	0	43	208	0	0	0	6	0	1
+/fsh-generated/resources/ImplementationGuide-lab-ig.json	2258	-	0	0	0	0	0	0	7	49	0	0	0	0	0	0	0	1	0	0	30	38	0	0	0	1	0	4
+fsh-generated/resources/Patient-Pasient-1.json	1162	7	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	10	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-lab-observation-blodprove.json	2270	2	0	43	0	0	0	0	0	84	0	0	0	0	0	0	0	2	0	0	58	834	0	1	0	8	0	1
+fsh-generated/resources/StructureDefinition-lab-patient.json	816	1	0	26	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	26	182	0	0	0	5	0	1
 /fsh-generated/includes/fsh-link-references.md	160	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /fsh-generated/includes/menu.xml	1089	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/index.md	1138	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images/test.puml	389	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/images/test.svg	8294	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/images/test.svg	8294	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /temp/pages/_includes/artifacts.xml	2505	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0

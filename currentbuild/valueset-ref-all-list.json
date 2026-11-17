@@ -53,8 +53,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-lab-observation-blodprove.html" : "Blodprøve",
-    "StructureDefinition-lab-patient.html" : "Pasient"
+    "StructureDefinition-lab-patient.html" : "Pasient",
+    "StructureDefinition-lab-observation-blodprove.html" : "Blodprøve"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",

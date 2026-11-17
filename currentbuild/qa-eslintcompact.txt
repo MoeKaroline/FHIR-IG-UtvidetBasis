@@ -25,4 +25,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /__w/FHIR-IG-UtvidetBasis/FHIR-IG-UtvidetBasis/lab-ig/fsh-generated/resources/StructureDefinition-lab-patient.json: line 0, col 0, Info - The resource StructureDefinition/lab-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html) (BUSINESSRULE)
 
 err = 0, warn = 15, info = 7, broken links = 0
-IG Publisher Version: 3.0.3
+IG Publisher Version: 3.0.4
